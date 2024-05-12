@@ -1,0 +1,396 @@
+@font-face {
+    font-family: myFont;
+    src: url(AnticDidone-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: myFont;
+    background-color: #F5D5E4;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+nav {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    background-color: #F5D5E4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    align-items: center;
+    height: 100%;
+    color: #451221;
+}
+
+.logo img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.links {
+    font-size: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    color: white;
+}
+
+#link {
+    border-radius: 1.5rem;
+    padding: 0.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #D4608E;
+    color: #F5D5E4;
+}
+
+#menu-icon {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio {
+    color: #451221;
+    position: relative;
+    height: 100vh;
+    float: left;
+
+}
+
+#portfolio1 {
+    position: relative;
+    font-size: 8rem;
+    padding-top: 6rem;
+    margin: 0;
+    left: -23%;
+}
+
+#portfolio2 {
+    position: relative;
+    font-size: 8rem;
+    margin: 0;
+    left: -23%;
+    width: 100%;
+}
+
+#portfolio3 {
+    font-size: 8rem;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    left: -23%;
+}
+
+#avatar {
+    width: 25rem;
+    position: absolute;
+    left: 65vh;
+    top: 7.7rem;
+    transform: translateX(-50%, -50%);
+    z-index: 1;
+}
+
+#bow1 {
+    position: absolute;
+    top: 7.9rem;
+    right: -10rem;
+    transform: translate(50%, -50%);
+    z-index: 2;
+}
+
+.highlight {
+    background-color: #F5D5E4;
+    color: transparent;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+}
+
+.media {
+    font-size: 1.5rem;
+    position: absolute;
+    color: #451221;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.media>div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.media img {
+    width: 3rem;
+}
+
+.media span,
+.media img {
+    margin: 0 5px;
+}
+
+#bow2 {
+    position: absolute;
+    top: 108.5%;
+    left: 8.7%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#avatar2 {
+    height: 32.5rem;
+    width: 25rem;
+    position: relative;
+}
+
+.hello {
+    color: #451221;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.contact2 {
+    margin-top: 2rem;
+    color: #F5D5E4;
+    background-color: #A63056;
+    width: 25rem;
+    height: 13rem;
+    position: absolute;
+    top: 159%;
+}
+
+#contact h3 {
+    font-size: 2.25rem;
+    margin: 0;
+    text-align: center;
+
+}
+
+#place {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#place span {
+    margin-left: 1rem;
+}
+
+#place img {
+    margin-left: 1rem;
+}
+
+#phone {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#phone span {
+    margin-left: 1rem;
+}
+
+#phone img {
+    margin-left: 1rem;
+}
+
+#email {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#email span {
+    margin-left: 1rem;
+}
+
+#email img {
+    margin-left: 1rem;
+}
+
+.information {
+    width: 45rem;
+    margin-left: 7%;
+}
+
+#hello {
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+}
+
+#information {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#bow3 {
+    position: absolute;
+    top: 223%;
+    right: 0.4rem;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.projects2 {
+    margin-top: 4rem;
+    background-color: #A63056;
+    color: #F5D5E4;
+    width: 70.5rem;
+}
+
+.projects3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#projects {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects2 h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+}
+
+.projects3 h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.projects3 span {
+    font-size: 1.5rem;
+}
+
+#line {
+    width: 90%;
+    border: 2px solid #F5D5E4;
+    height: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#line img {
+    height: 3.125rem;
+    margin-top: -1.521rem;
+
+}
+
+#flower1 {
+    margin-left: 9rem;
+}
+
+#flower2 {
+    margin-right: 9rem;
+}
+
+#project2,
+#project4 {
+    text-align: center;
+    width: 30%;
+    margin: 2rem;
+}
+
+#project2 {
+    margin-left: 17rem;
+    margin-right: 3.5rem;
+}
+
+#project4 {
+    margin-left: 3.5rem;
+}
+
+#project1,
+#project3 {
+    text-align: center;
+    width: 30%;
+    margin: 2rem;
+}
+
+#project1 {
+    margin-left: -12rem;
+    margin-right: 3.5rem;
+}
+
+#project3 {
+    margin-left: 3.5rem;
+}
+
+#section4 {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+}
+
+.hobbies1 {
+    color: #451221;
+    text-align: center;
+    width: 100%;
+}
+
+.hobbies2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.hobbies1 h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hobbies2 span {
+    font-size: 2rem;
+}
+
+#hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+#hobby img {
+    height: 3.125rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
